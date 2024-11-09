@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="5vsM76HSo_wXiVqfb6Jr">
+    <mxGraphModel dx="735" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="120" width="1066" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-3" value="LOGO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="40" width="906" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-6" value="COLLAGE CANVAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="760" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-7" value="ART" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="200" width="230" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-8" value="ART SEARCH" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-9" value="COLLAGE OPTION RIBBON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-10" value="OPTIONS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-11" value="ADV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="150" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-12" value="CURRENT CARDS LIST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-15" value="Advanced Filter" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="130" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XYj2PE0mqnhkW_xMPhNb-17" value="Set&lt;div&gt;Artist&lt;/div&gt;&lt;div&gt;Color Average? (later)&lt;/div&gt;&lt;div&gt;Tagged object (later)&lt;/div&gt;&lt;div&gt;toggle - dont show used art&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XYj2PE0mqnhkW_xMPhNb-15">
+          <mxGeometry y="20" width="200" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
