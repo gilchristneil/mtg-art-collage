@@ -38,7 +38,7 @@ export default async function Home({ params }: Props) {
             maxItems={6}
           />
         </Grid>
-        <Grid item size={6}>
+        <Grid size={6}>
           <ArtSearchCanvas />
         </Grid>
       </Grid>
