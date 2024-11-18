@@ -27,7 +27,7 @@ def get_all_cards():
     page = request.args.get('page', 1, type=int)
     sort_by = request.args.get('sort_by', None, type=str)
     sort_dir = request.args.get('sort_dir', None, type = str)
-    page_size = request.args.get('page_size', 8, type=int)
+    limit = request.args.get('limit', 8, type=int)
     group_by = request.args.get('group_by', None, type=str)
 
 
@@ -45,7 +45,7 @@ def get_all_cards():
     cards = db.paginate(
                         db_select,
                         page=page,
-                        per_page = page_size                        
+                        per_page = limit                        
                         )
                     
 
@@ -57,6 +57,11 @@ def get_all_cards():
     }
 
     return str(response)
+
+@app.route("/card/<id>", methods=['GET'])
+def get_card(id):
+    card = db.session.execute(db.select(Card).where(Card.id == id)).scalar_one_or_none()
+    return str(card)
 
 
 #purpose is to help the autocomplete when searching 
