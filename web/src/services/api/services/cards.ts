@@ -11,9 +11,10 @@ export type CardsRequest = {
   page: number;
   limit: number;
   sort?: Array<{
-    orderBy: keyof Card;
-    order: SortEnum;
+    sort_by: keyof Card;
+    sort: SortEnum;
   }>;
+  group_by?: keyof Card;
 };
 
 export type CardsResponse = InfinityPaginationType<Card>;
@@ -28,6 +29,9 @@ export function useGetCardsService() {
       requestUrl.searchParams.append("limit", data.limit.toString());
       if (data.sort) {
         requestUrl.searchParams.append("sort_by", JSON.stringify(data.sort));
+      }
+      if (data.group_by) {
+        requestUrl.searchParams.append("group_by", data.group_by);
       }
 
       return fetch(requestUrl, {
